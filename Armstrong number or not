@@ -1,0 +1,13 @@
+# To know the given number is Armstrong number or not.
+# Armstrong number means the sum of cubes of digits in a given number is equal to the given number
+n=int(input('Enter a first number:'))
+t=n
+sum=0
+while(n>0):
+    a=n%10
+    sum=sum+a**3
+    n=n//10
+if(sum==t):
+    print(t,'is an Armstrong number')
+else:
+    print(t,'is not an Armstrong number')
