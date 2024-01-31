@@ -1,0 +1,12 @@
+# To know the Armstrong numbers in between two numbwes.
+a=int(input('Enter your first number:'))
+b=int(input('Enter your last number:'))
+for i in range(a,b+1):
+    sum=0
+    n=i
+    while(n>0):
+        c=n%10
+        sum=sum+c**3
+        n=n//10
+    if(i==sum):
+        print(i)
