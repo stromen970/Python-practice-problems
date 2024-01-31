@@ -1,6 +1,6 @@
 # To know the given number is Armstrong number or not.
 # Armstrong number means the sum of cubes of digits in a given number is equal to the given number
-n=int(input('Enter a first number:'))
+n=int(input('Enter your number:'))
 t=n
 sum=0
 while(n>0):
