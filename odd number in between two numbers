@@ -1,0 +1,5 @@
+n=int(input('Enter a first number:'))
+m=int(input('Enter a last number:'))
+for i in range(n,m):
+    if(i%2!=0):
+        print(i)
