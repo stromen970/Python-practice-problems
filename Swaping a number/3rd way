@@ -1,0 +1,19 @@
+a=int(input('Enter your number:'))
+b=int(input('Enter your number:'))
+a,b=b,a
+print('After swaping The value of A is:',a)
+print('After swaping The value of B is:',b)
+
+Result:
+-------
+Ex:1
+Enter your number:10
+Enter your number:20
+After swaping The value of A is: 20
+After swaping The value of B is: 10
+
+Ex:2
+Enter your number:55
+Enter your number:45
+After swaping The value of A is: 45
+After swaping The value of B is: 55
