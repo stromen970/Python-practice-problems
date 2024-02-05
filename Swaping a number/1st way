@@ -1,0 +1,22 @@
+#By using temparary variable
+a=int(input('Enter your number:'))
+b=int(input('Enter your number:'))
+temp=a
+a=b
+b=temp
+print('After swaping The value of A is:',a)
+print('After swaping The value of B is:',b)
+
+Result:
+-------
+Ex:1
+Enter your number:25
+Enter your number:53
+After swaping The value of A is: 53
+After swaping The value of B is: 25
+
+Ex:2
+Enter your number:10
+Enter your number:20
+After swaping The value of A is: 20
+After swaping The value of B is: 10
