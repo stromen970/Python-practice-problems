@@ -1,0 +1,13 @@
+a=input('Enter your String in small letters:')
+print('Here is your String in capital letters:',a.upper())
+
+
+Result:
+------
+  Ex1:-
+  Enter your String in small letters:coca cola
+  Here is your String in capital letters: COCA COLA.
+
+  Ex2:-
+  Enter your String in small letters:laptop
+  Here is your String in capital letters: LAPTOP
