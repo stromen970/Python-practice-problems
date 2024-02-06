@@ -1,0 +1,13 @@
+a=input('Enter your String in upper letters:')
+print('Here is your String in small letters:',a.lower())
+
+
+Result:
+------
+Ex1:-  
+  Enter your String in upper letters:PRE-PLAN  
+  Here is your String in small letters: pre-plan
+
+Ex2:-
+  Enter your String in upper letters:LOCAL
+  Here is your String in small letters: local
