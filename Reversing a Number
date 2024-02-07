@@ -1,0 +1,26 @@
+n=int(input('Enter your number:'))
+t=n
+sum=0
+while(n>0):
+    a=n%10
+    sum=(sum*10)+a
+    n=n//10
+print('The Reverse of',t,'is:',sum)
+
+Result:
+-------
+Ex1:
+    Enter your number:1254
+    The Reverse of 1254 is: 4521
+
+Ex2:
+    Enter your number:9856
+    The Reverse of 9856 is: 6589
+
+Ex3:
+    Enter your number:45
+    The Reverse of 45 is: 54
+
+Ex4:
+    Enter your number:781
+    The Reverse of 781 is: 187
