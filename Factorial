@@ -1,0 +1,17 @@
+n=int(input('Enter your number:'))
+f=1
+for i in range(1,n+1):
+    f=f*i
+print('Factorial of',n,'is:',f)
+
+Result:
+------
+Ex1:
+    Enter your number:5
+    Factorial of 5 is: 120
+Ex2:
+    Enter your number:12
+    Factorial of 12 is: 479001600
+Ex3:
+    Enter your number:7
+    Factorial of 7 is: 5040
