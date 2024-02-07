@@ -1,0 +1,29 @@
+# ASCII means American Standard Code for Information Interchange
+string=input("Enter any string:")
+for i in string:
+    print('The ASCII value of your entered string is:',ord(i))
+
+
+Result:
+-------
+Ex1:
+    Enter any sring:k
+    The ASCII value of your entered string is: 107
+Ex2:
+    Enter any string:problem
+    The ASCII value of your entered string is: 112
+    The ASCII value of your entered string is: 114
+    The ASCII value of your entered string is: 111
+    The ASCII value of your entered string is: 98
+    The ASCII value of your entered string is: 108
+    The ASCII value of your entered string is: 101
+    The ASCII value of your entered string is: 109
+Ex3:
+    Enter any string:PROBLEM
+    The ASCII value of your entered string is: 80
+    The ASCII value of your entered string is: 82
+    The ASCII value of your entered string is: 79
+    The ASCII value of your entered string is: 66
+    The ASCII value of your entered string is: 76
+    The ASCII value of your entered string is: 69
+    The ASCII value of your entered string is: 77
