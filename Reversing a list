@@ -1,0 +1,19 @@
+list=['one','two','three']
+print('Your original list is:',list)
+list.reverse()
+print('The reversed list is:',list)
+
+Result:
+-------
+Your original list is: ['one', 'two', 'three']
+The reversed list is: ['three', 'two', 'one']
+
+list=[10,25,42,15,4,2,15,48]
+print('Your original list is:',list)
+list.reverse()
+print('The reversed list is:',list)
+
+Result:
+-------
+Your original list is: [10, 25, 42, 15, 4, 2, 15, 48]
+The reversed list is: [48, 15, 2, 4, 15, 42, 25, 10]
