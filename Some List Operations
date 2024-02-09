@@ -1,1 +1,8 @@
+#Append()
+l=[1,2,3,4]
+l.append(5)
+print('The append list is:',l)
 
+Result:
+-------
+The append list is: [1, 2, 3, 4, 5]
