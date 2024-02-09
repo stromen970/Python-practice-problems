@@ -6,3 +6,23 @@ print('The append list is:',l)
 Result:
 -------
 The append list is: [1, 2, 3, 4, 5]
+
+#Insert() value
+l=[1,2,3,4]
+l.insert(1,10)
+print('The list is:',l)
+
+Result:
+-------
+The list is: [1, 10, 2, 3, 4]
+
+#Insert() value
+l=[1,2,3,4]
+l.insert(3,10)
+print('The list is:',l)
+
+Result:
+-------
+The list is: [1, 2, 3, 10, 4]
+
+
