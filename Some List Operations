@@ -16,7 +16,7 @@ Result:
 -------
 The list is: [1, 10, 2, 3, 4]
 
-#Insert() value
+#Insert() at index 3 value
 l=[1,2,3,4]
 l.insert(3,10)
 print('The list is:',l)
@@ -24,5 +24,20 @@ print('The list is:',l)
 Result:
 -------
 The list is: [1, 2, 3, 10, 4]
+
+#pop():
+l=[1,2,3,4,5]
+l.pop(2)
+print('The Present list is:',l)
+
+Result:
+-------
+The Present list is: [1, 2, 4, 5].(It deletes the particular index value when you mention in the pop function)
+
+
+
+
+
+
 
 
