@@ -1,6 +1,6 @@
 n=int(input('Enter your first number:'))
 m=int(input('Enter your last number:'))
-for i in range(n,m):
+for i in range(n,m+1):
     if(i%2==0):
         print(i)
 
@@ -18,3 +18,5 @@ Enter your last number:30
 24
 26
 28
+30
+
