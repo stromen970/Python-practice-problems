@@ -20,3 +20,16 @@ Enter your last number:30
 28
 30
 
+
+# 2nd type to print even numbers
+
+n=int(input('Enter your number:'))
+for i in range(1,n+1):
+    print((2*i),end=' ')
+
+
+Result:
+-------
+Enter your number:10
+2 4 6 8 10 12 14 16 18 20
+
