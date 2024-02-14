@@ -1,1 +1,15 @@
+n=int(input('Enter how many times it will come:'))
+a=0
+b=1
+sum=0
+for i in range(0,n):
+    print(sum,end=" ")
+    a=b
+    b=sum
+    sum=a+b
 
+
+Result:
+-------
+Enter how many times it will come:7
+0 1 1 2 3 5 8
