@@ -1,1 +1,23 @@
+marks1=float(input('Enter your first subject marks:'))
+marks2=float(input('Enter your second subject marks:'))
+marks3=float(input('Enter your third subject marks:'))
+marks4=float(input('Enter your fourth subject marks:'))
+marks5=float(input('Enter your fifth subject marks:'))
+marks6=float(input('Enter your sixth subject marks:'))
+Total_marks=marks1+marks2+marks3+marks4+marks5+marks6
+percentage=(Total_marks/600)*100
+print('Total marks you got in exams:',Total_marks)
+print('Total percentage is:',percentage)
 
+
+
+Result:
+-------
+Enter your first subject marks:89
+Enter your second subject marks:78
+Enter your third subject marks:85
+Enter your fourth subject marks:96
+Enter your fifth subject marks:92
+Enter your sixth subject marks:86
+Total marks you got in exams: 526.0
+Total percentage is: 87.66666666666667
