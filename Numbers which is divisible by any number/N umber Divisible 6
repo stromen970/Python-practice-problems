@@ -1,1 +1,21 @@
+n=int(input('Enter your first number:'))
+m=int(input('Enter your last number:'))
+sum=0
+for i in range(n,m+1):
+    sum=sum+i
+    if(i%6==0):
+        print(i)
 
+Result:
+------
+Enter your first number:100
+Enter your last number:150
+102
+108
+114
+120
+126
+132
+138
+144
+150
