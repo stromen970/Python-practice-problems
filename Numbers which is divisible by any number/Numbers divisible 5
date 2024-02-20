@@ -1,1 +1,7 @@
-
+n=int(input('Enter your first number:'))
+m=int(input('Enter your last number:'))
+sum=0
+for i in range(n,m+1):
+    sum=sum+i
+    if(i%5==0):
+        print(i)
